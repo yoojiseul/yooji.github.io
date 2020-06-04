@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+
+ <head>
+  <title>iframe 이용</title>
+  <style>
+  </style>
+ </head>
+
+ <body>
+  <h3>w3c에 관한 백과사전</h3>
+  <div>
+   <span>
+    <a href="소개.html" target="if_a">W3C소개 |</a>
+   </span>
+   <span>
+    <a href="로고.jpg" width="200" height="100" target="if_b">로고 |</a>
+   </span>
+   <span>
+    <a href="https://www.w3schools.com/" target="if_c">웹 사이트 |</a>
+   </span>
+  </div>
+  <iframe src="basic.html" name="if_a" style="height:300px; width:400px;"></iframe>
+  <iframe src="basic.html" name="if_b" style="height:300px; width:400px;"></iframe>
+  <iframe src="basic.html" name="if_c" style="height:300px; width:400px;"></iframe>
+  <p>W3C 정보를 제공합니다.</p>
+ </body>
+
+</html>
+
+
+-----------------------------------------------------------------------------
+소개.html
+
+<!DOCTYPE html>
+<html>
+ <head>
+  <title>iframe 이용</title>
+ </head>
+
+ <body>
+<h1>W3C 소개</h1>
+This page has been designed to assist new visitors to the W3C Web site. It explains how the Web site is organized, where to find information, and how to use the W3C home page. For general information about W3C as an organization, please consult the set of pages entitled About W3C.
+
+How is the W3C Web site organized?
+
+Much of the W3C Web site is organized along three main axes:
+
+1. W3C is divided into Activities. Each technology belongs to an Activity, and each Activity has a home page with links to related specifications, tutorials, and news.
+2. The core work of W3C appears in the index of specifications called technical reports which are at various levels of development. These documents define how a technology has to be used and implemented. The documents that have made it through the W3C process of building consensus are called Recommendations, which are considered Web standards. (Note that this index is very technical.)
+3. Our mailing lists are where users and technology developers and implementors meet to discuss their ideas and exchange points of view. Mailing lists can be a place to look for technical help.
+
+W3C conducts most of its work on its Web site. W3C maintains more than one million Web pages in the www.w3.org domain plus more than another million pages of mailing list archives at lists.w3.org (where the W3C mailing lists are housed). Producing a lot of interesting resources has two consequences:
+
+1. If you know where to search, you can find exactly what you're looking for.
+2. You really need to know where to search!
+
+In addition, each page on our site has two important features:
+
+1. The W3C logo on most pages is a link to our home page.
+2. Most pages are signed with an email address, the way to send feedback to the author of the page.
+
+Where do I find what I need?
+
+If you think your question must already have an answer on our Web site, check the W3C Frequently Asked Questions list, the Site Index, and our search engine. Each is linked from the W3C home page. If you are looking for the meaning of a term, please look at the W3C glossary/dictionary of terms.
+
+If you have a question and feel that you want to ask a person, use our mailing lists. Subscription information is in W3C Mailing List Administrativia. But how does one choose the right mailing list?
+
+● If you start from one of our specifications, you'll find a mailing list where you can send questions about that technology. The address is located near the top in the section called "Status of This Document."
+● If you start from a technology's home page, you'll find that each Working Group has a mailing list. You can send email there, or look into the mailing list archives and possibly find the answer to your question.
+● W3C World Wide Web Mailing Lists is the place to find all of our public mailing lists.
+● If you still cannot find the answer, try How to Contact W3C.
+● Questions and answers related to our home page are found in the public archive of site-comments@w3.org.
+● Finally, you can solicit help from W3C's Webmaster. First consult the W3C Webmaster FAQ, and if your question is unanswered, please write to web-human@w3.org.
+
+How do I use the W3C home page?
+
+Our home page is useful for people who visit the site regularly and can be a little hard to use for newcomers. It has four parts:
+
+1. At the top and bottom are navigation bars with links to our Activities, the index of Technical Reports, our Site Index, About W3C and ways to Contact Us.
+2. On the left side are shortcuts to some of the technologies developed on our site.
+3. In the center column are the latest news and announcements of the W3C.
+4. On the right side are links to operational resources. See especially how to participate as an individual.
+
+If you are an individual from a Member organization, visit the Member home page and read the New Member Orientation. (Please apply for a password if neccesary.) W3C can mail you your lost password.
+</body>
+</html>
+-----------------------------------------------------------------------------
+basic.html
+
+<!DOCTYPE html>
+<html>
+
+ <head>
+  <title>iframe 이용</title>
+ </head>
+
+ <body>
+  이 곳은 iframe 영역입니다.
+ </body>
+</html>
