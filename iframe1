@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            처음 부분
+        </title>
+    </head>
+    <body>
+        <center>
+        <img src="이슬.jpg" width="40%" height="50%"></img>
+        <img src="이슬2.jpg".jpg" width="40%" height="50%"></img>
+        <video src="블로그용.mp4" controls width="30%" height="50%"></video>
+        </center>
+    </body>
+</html>
