@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            포스트부분
+        </title>
+    </head>
+    <body>
+        <center>
+            <p>2005.10.19 만남</p>
+            <p>유기견 출신</p>
+            <p>생일: 10월19일</p>
+
+            <img src="이슬이 생일 빵과 함께.jpg" width="40%" height="50%""></img>
+        </center>
+    </body>
+</html>
